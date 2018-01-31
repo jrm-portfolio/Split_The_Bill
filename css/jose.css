@@ -1,0 +1,20 @@
+.text-indent {
+  text-indent: 2em;
+}
+
+.portrait {
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.skill {
+  padding: 15px;
+}
+
+.projects-row {
+  margin-bottom: 30px;
+}
+
+.no-padding {
+  padding: 0px;
+}

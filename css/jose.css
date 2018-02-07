@@ -7,6 +7,12 @@
   margin-bottom: 20px;
 }
 
+.gallery {
+  border-radius: 0px;
+  border: 0px;
+  margin-bottom: 20px;
+}
+
 .skill {
   padding: 15px;
 }
@@ -17,6 +23,10 @@
 
 .no-padding {
   padding: 0px;
+}
+
+.phone {
+  height: 500px !important;
 }
 
 .phone2 {

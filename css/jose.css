@@ -3,7 +3,7 @@
 }
 
 .portrait {
-  /* border-radius: 5px; */
+  border-radius: 5px;
   margin-bottom: 20px;
 }
 
@@ -17,4 +17,17 @@
 
 .no-padding {
   padding: 0px;
+}
+
+.phone2 {
+  float:  right;
+  right: -180px;
+  position:  relative;
+  opacity: .8;
+}
+.phone3 {
+  float:  left;
+  left: -180px;
+  position:  relative;
+  opacity: .8;
 }

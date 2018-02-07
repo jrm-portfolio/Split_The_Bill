@@ -1216,8 +1216,9 @@ a.btn-mod:focus{
     font-size: 16px;
     font-weight: 400;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     color: rgba(255,255,255, .85);
+    width: 150px;
 }
 .hs-line-5{
     margin-top: 0;

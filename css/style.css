@@ -1203,7 +1203,7 @@ a.btn-mod:focus{
 .hs-line-3{
     margin-top: 0;
     position: relative;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -1452,8 +1452,8 @@ a.btn-mod:focus{
 }
 .nav-logo-wrap .logo{
     display: table-cell;
-    vertical-align: middle;
-    max-width: 118px;
+    /* vertical-align: middle; */
+    max-width: 400px;
     height: 75px;
     -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -1505,7 +1505,7 @@ a.logo:hover{
 
 .small-height{
   background-color: #000;
-  height: 50px !important;
+  height: 100px !important;
 }
 .small-height .inner-nav ul li a{
     height: 55px !important;

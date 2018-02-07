@@ -1452,7 +1452,7 @@ a.btn-mod:focus{
 }
 .nav-logo-wrap .logo{
     display: table-cell;
-    /* vertical-align: middle; */
+    vertical-align: middle;
     max-width: 400px;
     height: 75px;
     -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -1470,11 +1470,11 @@ a.btn-mod:focus{
 }
 .logo,
 a.logo:hover{
-    /* font-family: Dosis, arial, sans-serif; */
-    font-size: 28px;
+    font-family: Dosis, arial, sans-serif;
+    font-size: 25px;
     font-weight: 400 !important;
     text-transform: uppercase;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.15em;
     text-decoration: none;
     color: rgba(0,0,0, .9);
 }
@@ -1505,7 +1505,7 @@ a.logo:hover{
 
 .small-height{
   background-color: #000;
-  height: 100px !important;
+  height: 80px !important;
 }
 .small-height .inner-nav ul li a{
     height: 55px !important;

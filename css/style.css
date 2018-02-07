@@ -230,6 +230,7 @@ a:active{
     outline: none;
 }
 img:not([draggable]), embed, object, video{
+    display:  block;
     max-width: 100%;
     height: auto;
 }
@@ -1021,7 +1022,7 @@ a.btn-mod:focus{
 .home-text{
     margin: 50px 0px;
     display: table-cell;
-    height: 100%;
+    height: 00%;
     vertical-align: middle;
     padding:  0;
     /* background-color: black; */
@@ -1231,12 +1232,16 @@ a.btn-mod:focus{
     opacity: .85;
 }
 .hs-line-6{
-    margin-top: 0;
+    padding: 3px 15px;
+    margin: 0px 120px;
+    background-color: darkred;
+    /* margin-top: 0; */
     position: relative;
     font-size: 19px;
     font-weight: 300;
     line-height: 1.2;
-    opacity: .35;
+    opacity: .7;
+    border-radius: 2px;
 }
 .hs-line-6.no-transp{
     opacity: 1;

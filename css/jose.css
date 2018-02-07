@@ -26,18 +26,18 @@
 }
 
 .phone {
-  
+
 }
 
 .phone2 {
   float:  right;
-  right: -180px;
+  right: -90px;
   position:  relative;
-  opacity: .8;
+  opacity: .9;
 }
 .phone3 {
   float:  left;
-  left: -180px;
+  left: -90px;
   position:  relative;
-  opacity: .8;
+  opacity: .9;
 }

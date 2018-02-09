@@ -13,6 +13,10 @@
   margin-bottom: 20px;
 }
 
+.logo {
+  max-height: 75px;
+}
+
 .skill {
   padding: 15px;
 }

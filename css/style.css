@@ -2345,6 +2345,8 @@ a.logo:hover{
 
 .page-section,
 .small-section{
+    background-color:  black;
+    opacity: .75;
     width: 100%;
     display: block;
     position: relative;

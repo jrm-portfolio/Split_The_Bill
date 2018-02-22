@@ -230,7 +230,7 @@ a:active{
     outline: none;
 }
 img:not([draggable]), embed, object, video{
-    display:  block;
+    /* display:  block; */
     max-width: 100%;
     height: auto;
 }

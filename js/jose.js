@@ -16,11 +16,11 @@ $(document).ready(function(){
 
 var owl = $('.owl-carousel');
 owl.owlCarousel({
-    items:4,
+    items:3,
     loop:true,
-    margin:10,
+    margin:50,
     autoplay:true,
-    autoplayTimeout:1000,
+    autoplayTimeout:4000,
     autoplayHoverPause:true
 });
 $('.play').on('click',function(){

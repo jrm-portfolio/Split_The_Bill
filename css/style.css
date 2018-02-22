@@ -1192,7 +1192,7 @@ a.btn-mod:focus{
     opacity: .9;
 }
 .hs-line-2{
-    margin-top: 0;
+    /* margin-top: 0; */
     position: relative;
     font-size: 72px;
     font-weight: 400;

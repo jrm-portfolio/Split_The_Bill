@@ -44,6 +44,11 @@
   opacity: .9;
 }
 
+.mail-list {
+  height: 500px;
+  padding-top: 150px;
+}
+
 
 * { box-sizing: border-box; }
 .video-background {

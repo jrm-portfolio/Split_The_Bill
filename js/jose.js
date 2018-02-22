@@ -16,7 +16,7 @@ $(document).ready(function(){
 
 var owl = $('.owl-carousel');
 owl.owlCarousel({
-    items:3,
+    items:2,
     loop:true,
     margin:50,
     autoplay:true,

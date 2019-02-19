@@ -2,6 +2,12 @@
   text-indent: 2em;
 }
 
+#home {
+    \: 150px;
+    padding: 450px 0px;
+    margin-left: 150px;
+}
+
 .portrait {
   max-height: 70px;
   border-radius: 5px;
@@ -35,9 +41,10 @@
 }
 
 .phone2 {
-  float:  right;
+  padding-right: 48px;
+  max-height:  400px;
   position:  relative;
-  opacity: .9;
+  /* opacity: 1; */
 }
 .phone3 {
   float:  left;
@@ -51,7 +58,7 @@
 }
 
 
-* { box-sizing: border-box; }
+* {box-sizing: border-box;}
 .video-background {
   background: #000;
   position: fixed;

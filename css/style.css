@@ -230,7 +230,9 @@ a:active{
     outline: none;
 }
 img:not([draggable]), embed, object, video{
-    /* display:  block; */
+    float: left;
+    text-align:  center;
+    display:  block;
     max-width: 100%;
     height: auto;
 }
@@ -978,6 +980,20 @@ a.btn-mod:focus{
  * Header common styles
  */
 
+ .gallery-section{
+    /* width: 100%; */
+    /* display: block; */
+    /* position: relative; */
+    /* overflow: hidden; */
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+    /* background-position: center center; */
+    /* -webkit-background-size: cover; */
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    /* background-size: cover; */
+}
+
 .home-section{
     width: 100%;
     display: block;
@@ -1010,17 +1026,19 @@ a.btn-mod:focus{
     display: table;
     width: 100%;
     height: 100%;
-    text-align: center;
+    /* text-align: center; */
 }
 
 
 /* Home content */
 
 .home-content{
+    /* padding-left: 150px; */
     position: relative;
 }
 .home-text{
-    margin: 50px 0px;
+    /* padding-left: 150px; */
+    /* margin: 20px 0px; */
     display: table-cell;
     height: 00%;
     vertical-align: middle;

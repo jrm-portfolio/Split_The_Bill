@@ -12,7 +12,8 @@
   -webkit-tap-highlight-color: transparent;
   /* position relative and z-index fix webkit rendering fonts issue */
   position: relative;
-  z-index: 1; }
+  z-index: 1;
+  }
   .owl-carousel .owl-stage {
     position: relative;
     -ms-touch-action: pan-Y;
@@ -47,7 +48,8 @@
     -webkit-touch-callout: none; }
   .owl-carousel .owl-item img {
     display: block;
-    width: 100%; }
+    width: 100%;
+    }
   .owl-carousel .owl-nav.disabled,
   .owl-carousel .owl-dots.disabled {
     display: none; }
@@ -62,12 +64,14 @@
     -ms-user-select: none;
     user-select: none; }
   .owl-carousel.owl-loaded {
-    display: block; }
+    display: block;
+    }
   .owl-carousel.owl-loading {
     opacity: 0;
     display: block; }
   .owl-carousel.owl-hidden {
-    opacity: 0; }
+    opacity: 0;
+    }
   .owl-carousel.owl-refresh .owl-item {
     visibility: hidden; }
   .owl-carousel.owl-drag .owl-item {
